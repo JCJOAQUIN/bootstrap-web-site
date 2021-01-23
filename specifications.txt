@@ -1,0 +1,11 @@
+Colors:         Name            Hard            Middle          Soft
+
+primario:       Blue            #005380         #0085CC         #00A7FF
+
+secundario:     Orange          #d17d00         #ebab4d         #ffce87
+
+terciario:      Gray            #525252         #8f8f8f         #c4c4c4
+
+Default 1:      Black           #000000
+
+Default 2:      White           #ffffff
