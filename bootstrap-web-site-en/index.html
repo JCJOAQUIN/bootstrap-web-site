@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/Styles.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oxygen:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
@@ -12,174 +13,233 @@
 </head>
 
 <body>
-    <header class="d-flex flex-column show " id="show">
-        <!--  ----------------------   Profile  ----------------------   -->
-        <div>
-            <span class="img-perfil" id="perfil"></span>
-            <p class="text-light">José Carlos JV</p>
-            <ul class="d-flex" id="contenedor-social">
-                <li class="link-social"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                <li class="link-social"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
-                <li class="link-social"><a href="#"><i class="fab fa-github-square"></i></a></li>
-            </ul>
-            <hr class="my-4">
+
+    <!--  ----------------------   Navbar  ---------------------- -->
+
+    <header id="header">
+        <div class="d-flex flex-column">
+
+            <!--  ----------------------   Profile  ----------------------   -->
+            <div class="profile">
+                <span class="img-profile" id="profile"></span>
+                <h1 class="text-light" id="profile">{ José Carlos JV }</h1>
+                <ul class="d-flex" id="social-container">
+                    <li class="nav-item" id="link-social"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="nav-item" id="link-social"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
+                    <li class="nav-item" id="link-social"><a href="#"><i class="fab fa-github-square"></i></a></li>
+                </ul>
+                <hr class="my-4">
+            </div>
+            <!--  ----------------------   End profile  ----------------------   -->
+
+            <!--  ----------------------     Menu     ----------------------     -->
+
+            <nav class="nav-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#hero" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills-body" class="nav-link"><i class="fas fa-user-cog"></i> Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio-body" class="nav-link"><i class="fas fa-briefcase"></i> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-body" class="nav-link"><i class="fas fa-id-card"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact-body" class="nav-link"><i class="fas fa-envelope"></i> Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--     ----------------------     End menu     ----------------------      -->
         </div>
-        <!--  ----------------------   End profile  ----------------------   -->
 
 
-        <!--  ----------------------     Menu     ----------------------     -->
-        <nav>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#inicio" class="nav-link"><i class="fas fa-home"></i> Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#habilidades-body" class="nav-link"><i class="fas fa-user-cog"></i> Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#portafolio-body" class="nav-link"><i class="fas fa-briefcase"></i> Portafolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#acerca-body" class="nav-link"><i class="fas fa-id-card"></i> A cerca de...</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#contacto-body" class="nav-link"><i class="fas fa-envelope"></i> Contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <!--     ----------------------     End menu     ----------------------      -->
+
+
+
     </header>
+    <!--     ----------------------     End Navbar     ----------------------     -->
+    <!--
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+         ----------------------          ----------------------     -->
+    <!--     ----------------------     End     ----------------------     -->
 
 
     <!--     ----------------------     Hero     ----------------------     -->
-    <section class="d-flex flex-column justity-content-center aling-items-center" id="inicio">
-        <button id="btn-show">MENU</button>
-        <div class="contenedor-inicio">
-            <div class="inicio">
-                <h1 id="titulo-inicio">José Carlos JV</h1>
-                <div id="yo-txt">
-                    <span id="incio-tipo">I'm {</span>
+    <section class="d-flex flex-column justity-content-center aling-items-center" id="hero">
+        <div class="hero-container">
+            <div class="hero">
+                <h1 id="title-hero">José Carlos JV</h1>
+                <div id="iam-txt">
+                    <span id="hero-type">I'm {</span>
                     <span class="typed"></span>
-                    <span id="cadena-texto">
+                    <span class="txt-typ" id="cadena-text">
                         <h2>Sistem Computer Engineer</h2>
                         <h2>Developer</h2>
                         <h2>Feelance</h2>
                         <h2>Designer</h2>
                     </span>
-                    <span id="inicio-tipo">}</span>
+                    <span id="hero-type">}</span>
                 </div>
             </div>
         </div>
     </section>
+
+
     <!--     ----------------------     End hero     ----------------------     -->
+
+
+
     <!--     ----------------------     Skills     ----------------------     -->
-    <section id="habilidades-body">
+    <section class="container-fluid" id="skills-body">
         <div class="jumbotron">
-            <h2 class="display-4">Habilidades </h2>
+            <h2 class="display-4">Skills </h2>
             <hr class="my-4">
             <h3>
-                <p>¡En esta sección te muestro las habilidades que me caracterizan!</p>
+                <p>Maybe you want to know my skills, i indtroduce it in this block!</p>
             </h3>
         </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Habilidades duras</li>
+                <li class="breadcrumb-item active" aria-current="page">Hard Skills</li>
             </ol>
         </nav>
+        <div class="container skills-box">
+            <div class="container-fluid">
+                <div class="html" id="skills">
+                    <h3>HTML</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="css" id="skills">
+                    <h3>CSS</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="js" id="skills">
+                    <h3>JAVASCRIPT</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="java" id="skills">
+                    <h3>JAVA</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="php" id="skills">
+                    <h3>PHP</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
 
-        <ul class="container-fluid" id="list-dur">
-            <li class="hduras lado-izq"><i class="fab fa-html5"> HTML5</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-            <li class="hduras lado-der"><i class="fab fa-css3"> CSS3</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-            <li class="hduras lado-izq"><i class="fab fa-js-square"> JAVSCRIPT</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-            <li class="hduras lado-der"><i class="fab fa-java"> JAVA</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-            <li class="hduras lado-izq"><i class="fab fa-php"> PHP</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-            <li class="hduras lado-der"><i class="fas fa-database"> SQL</i>
-                <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-            </li>
-        </ul>
 
+
+
+        </div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page">Habilidades blandas</li>
+                <li class="breadcrumb-item active" aria-current="page">Soft Skills</li>
             </ol>
         </nav>
+        <div class="container skill-box">
 
-        <ul class="container-fluid" id="list-bland">
-            <li class="hblandas">
-                <i class="fas fa-assistive-listening-systems"> Comunicación</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-lightbulb"> Creatividad</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-people-carry"> Trabajo en equipo</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-dice-d20">Adaptabilidad</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-clock"> Manejo del tiempo</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-gavel"> Ética laboral</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-flag"> Liderazgo</i>
-            </li>
-            <li class="hblandas">
-                <i class="fas fa-cube"> Solución de problemas</i>
-            </li>
-        </ul>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-assistive-listening-systems"></i> Comunication</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-clock"></i> Time managment</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-people-carry"></i> Teamwork</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-dice-d20"></i> Adaptability</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-lightbulb"></i> Creativity</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-gavel"></i> Work ethic</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fas fa-flag"></i> Ladership</h3>
+            </div>
+            <div class="php" id="skills">
+                <h3><i class="fab fa-resolving"></i> Problem solving</h3>
+            </div>
+
+        </div>
+
 
     </section>
     <!--     ----------------------     End Skills     ----------------------     -->
+
+
+
     <!--     ----------------------      Portfolio    ----------------------     -->
 
-    <section class="container-fluid" id="portafolio-body">
+    <section class="container-fluid" id="portfolio-body">
         <div class="portafolicontainer">
             <div class="jumbotron">
-                <h2 class="display-4">Portafolio</h2>
+                <h2 class="display-4">Portfolio</h2>
                 <hr class="my-4">
                 <h3>
-                    <p>¡Permiteme presentarte los proyectos que he realizado!</p>
+                    <p>Let me introduce all the proyects that i was made!</p>
                 </h3>
             </div>
 
             <!--     ----------------------      Web proyects    ----------------------     -->
-            <div class="container-fluid d-flex" id="container-kinds">
+            <div class="container-fluid" id="container-kinds">
 
                 <div class="card" style="width: 28rem;">
                     <img class="card-img-top" src="img/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Proyectos web</h5>
-                        <p class="card-text">¡Aquí encontraras los proyectos para la web que he realizado!</p>
+                        <h5 class="card-title">Web proyects</h5>
+                        <p class="card-text">You can find here my web proyects!</p>
                         <!-- Button trigger modal -->
 
                         <div class="webModal" id="proyectshow">
                             <button type="button" class="btn btn-primary btn-modal btn-block" data-toggle="modal" data-target="#exampleModal">
-                                <h3>Ver los proyectos</h3>
+                                <h3>Watch them</h3>
                             </button>
 
                             <!-- Modal -->
@@ -199,7 +259,7 @@
                                                         <h5>First Proyect</h5>
                                                         <p>Some representative placeholder content for the first slide.</p>
                                                         <button type="button" class="btn btn-primary">
-                                                            <div class="btn-git-res">Repositorio en GitHub</div>
+                                                            <div class="btn-git-res"> GitHub resurces</div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -209,7 +269,7 @@
                                                         <h5>Second proyect</h5>
                                                         <p>Some representative placeholder content for the second slide.</p>
                                                         <button type="button" class="btn btn-primary">
-                                                            <div class="btn-git-res">Repositorio en GitHub</div>
+                                                            <div class="btn-git-res"> GitHub resurces</div>
                                                         </button>
                                                     </div>
                                                 </div>
@@ -219,18 +279,18 @@
                                                         <h5>Third proyect</h5>
                                                         <p>Some representative placeholder content for the third slide.</p>
                                                         <button type="button" class="btn btn-primary">
-                                                            <div class="btn-git-res">Repositorio en GitHub</div>
+                                                            <div class="btn-git-res"> GitHub resurces</div>
                                                         </button>
                                                     </div>
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Anterior</span>
+                                                <span class="sr-only">Previous</span>
                                             </a>
                                             <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Siguiente</span>
+                                                <span class="sr-only">Next</span>
                                             </a>
                                         </div>
                                     </div>
@@ -243,16 +303,16 @@
                     </div>
                 </div>
                 <!--     ----------------------      End web proyects    ----------------------     -->
-                <!--     ----------------------      Mobil proyects    ----------------------     -->
+                <!--     ------m----------------      Mobil proyects    ----------------------     -->
 
                 <div class="card" style="width: 28rem;">
                     <img class="card-img-top" src="img/andrew-neel-TTPMpLl_2lc-unsplash.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Proyectos móviles</h5>
-                        <p class="card-text">¡Aquí encontraras los proyectos para dispositivos móviles que he realizado!</p>
+                        <h5 class="card-title">Mobil proyects</h5>
+                        <p class="card-text">You can find here my mobil proyects</p>
                         <div class="movilModal" id="proyectshow">
                             <button type="button" class="btn btn-primary btn-modal btn-block" data-toggle="modal" data-target="#mobilModal">
-                                <h3>Ver los proyectos</h3>
+                                <h3>Watch them</h3>
                             </button>
 
                             <!-- Modal -->
@@ -326,15 +386,14 @@
 
     <!--     ----------------------      About    ----------------------     -->
 
-    <section class="container-fluid" id="acerca-body">
+    <section class="container-fluid" id="about-body">
         <div class="jumbotron">
-            <h2 class="display-4">A cerca de...</h2>
+            <h2 class="display-4">About</h2>
             <hr class="my-4">
             <h3>
-                <p>Algo sobre mí. Un poco de información adicional.</p>
+                <p>Here the description!</p>
             </h3>
         </div>
-
     </section>
     <!--     ----------------------     End About    ----------------------     -->
 
@@ -342,15 +401,15 @@
 
     <!--     ----------------------      Contact    ----------------------     -->
 
-    <section class="container-fluid global-contain" id="contacto-body">
+    <section class="container-fluid global-contain" id="contact-body">
         <div class="jumbotron ">
-            <h2 class="display-4">Contacto</h2>
+            <h2 class="display-4">Contact</h2>
             <hr class="my-4">
             <h3>
-                <p>¿Estas interesado en alguno de mis proyectos? o ¿necesitas que realice algún proyecto para tí?</p>
+                <p>Are you interesting, that i colaborate whit you?</p>
             </h3>
             <h3>
-                <p>¡Contactame!</p>
+                <p>Contact to me!</p>
             </h3>
         </div>
 
@@ -361,37 +420,37 @@
 
                 <div class="form-row container-fluid">
                     <div class="col-md-6 mb-3" id="name-box">
-                        <label for="validationCustom01">Nombre</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" required>
+                        <label for="validationCustom01">Name</label>
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="Enter your name" required>
                         <div class="invalid-feedback">
-                            Por favor ingresa tu nombre.
+                            Please provide your name.
                         </div>
                     </div>
                     <div class="col-md-6 mb-3" id="mail-box">
-                        <label for="validationCustom02">Correo electrónico</label>
-                        <input type="email" class="form-control" id="validationCustom02" placeholder="tu_correo@ejemplo.com" required>
+                        <label for="validationCustom02">Your email</label>
+                        <input type="email" class="form-control" id="validationCustom02" placeholder="youremail@example.com" required>
                         <div class="invalid-feedback">
-                            Porfavor ingresa un correo.
+                            Please provide your email.
                         </div>
                     </div>
                     <div class="col-md-12 mb-3" id="subject-box">
-                        <label for="validationCustom03">Asunto</label>
-                        <input type="text" class="form-control" id="validationCustom03" placeholder="Escribe el asunto del correo" required>
+                        <label for="validationCustom03">Subject</label>
+                        <input type="text" class="form-control" id="validationCustom03" placeholder="subject" required>
                         <div class="invalid-feedback">
-                            Porfavor escribe un asunto.
+                            Please provide a Subject.
                         </div>
                     </div>
 
                     <div class="col-md-12 mb-3" id="message-box">
-                        <label for="validationCustom04">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje completo aquí"></textarea>
+                        <label for="validationCustom04">Message body</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Whrite your message here"></textarea>
                         <div class="invalid-feedback">
-                            Por favor escriba su mensaje.
+                            Please provide a message.
                         </div>
                     </div>
                 </div>
 
-                <button class="btn btn-primary d-flex" type="submit" id="btn-send">Enviar correo</button>
+                <button class="btn btn-primary d-flex" type="submit" id="btn-send">Send Email</button>
             </form>
 
         </div>
@@ -399,10 +458,15 @@
     <!--     ----------------------     End Contact    ----------------------     -->
 
 
+    <!--     ----------------------     JavaScript links     ----------------------      -->
+
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/typed.js"></script>
     <script src="js/main.js"></script>
+
+    <!--     ----------------------     End JavaScript links     ----------------------     -->
+
 </body></html>

@@ -1,0 +1,328 @@
+/*  ----------------------   Configuración general   ----------------------  */
+body {
+    padding-left: 300px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    padding: 0 15px;
+    background: #005380;
+    color: white;
+    list-style: none;
+    z-index: 1;
+}
+
+li
+{
+    list-style: none;
+}
+
+/*  ----------------------   Termina la configuración general   ----------------------  */
+
+
+
+
+/*  ----------------------   Configuración a 900px   ----------------------  */
+
+@media screen and (max-width:900px) {
+
+/*  ----------------------   Configuración general a 900px   ----------------------  */
+    body {
+        padding: 0px;
+    }
+
+    .show {
+        margin-left: -300px;
+        transition: all 0.5s;
+    }
+/*  ----------------------   Termina la configuración general a 900px   ----------------------  */
+
+
+/*  ----------------------   Colapso de la barra de navegación lateral   ----------------------  */
+    #btn-show {
+        position: fixed;
+        width: 60px;
+        margin-top: 30px;
+        margin-left: 85%;
+        z-index: 1;
+        background-color: rgba(0, 83, 128, 0);
+        color: #ffffff;
+        font-family: fantasy;
+        border: 0;
+    }
+
+    .show-bar
+    {
+        margin-left: 0;
+    }
+/*  ----------------------   Termina el colapso de la barra de navegación lateral   ----------------------  */
+}
+/*  ----------------------   Termina la configuración general a 900px   ----------------------  */
+
+
+
+
+/**  ----------------------   Perfil   ----------------------  **/
+#perfil {
+    display: block;
+}
+
+.img-perfil {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/IMG_20200308_143056.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 10px solid #d17d00;
+}
+
+.text-light {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.9em;
+}
+
+/**  ----------------------   Social   ----------------------  **/
+#contenedor-social {
+    padding: 0;
+}
+
+.link-social {
+
+    margin: auto;
+}
+
+.link-social .fab {
+    font-size: 40px;
+    color: white;
+}
+
+.link-social .fab:hover {
+    font-size: 40px;
+    color: #d17d00;
+}
+
+.my-4 {
+    height: 2px;
+    background-color: white !important;
+}
+
+/**  ----------------------   End Social   ----------------------  **/
+/**  ----------------------   End Profile   ----------------------  **/
+
+/**  ----------------------   Link sections   ----------------------  **/
+.nav-link {
+    color: #ffffff;
+    padding-top: 15px;
+    font-size: 1.1em;
+}
+
+
+.nav-link:hover {
+    color: #d17d00;
+}
+
+/**  ----------------------   End link sections   ----------------------  **/
+
+
+/**  ----------------------   End Navbar   ----------------------  **/
+
+
+
+/**  ----------------------   Sección inicio   ----------------------  **/
+#inicio {
+    position: relative;
+    height: 100vh;
+}
+
+.contenedor-inicio {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/andrew-neel-TTPMpLl_2lc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+.inicio {
+    width: 550px;
+    margin-top: 10%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#titulo-inicio {
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#yo-txt {
+    color: #ffffff;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 2em;
+}
+
+#inicio-tipo {
+    color: #ffffff;
+}
+
+/**  ----------------------   Termina la sección inicio   ----------------------  **/
+
+
+
+/**  ----------------------   Sección habilidades   ----------------------  **/
+#habilidades-body
+{
+    margin: 0;
+    padding: 10px 0px;
+}
+.jumbotron {
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #005380;
+}
+
+.jumbotron h2 {
+    color: #ebab4d;
+}
+
+.jumbotron h3 {
+    color: #ffffff;
+}
+
+
+.breadcrumb {
+    background-color: #8f8f8f;
+    margin: 10px;
+}
+
+.breadcrumb-item {
+    color: #ffffff !important;
+    font-size: 2em;
+}
+
+/**  ----------------------   Habilidades duras   ----------------------  **/
+#list-dur
+{
+    margin: 40px 0px;
+}
+
+.hduras
+{
+    width: 49%;
+    padding: 2%;
+    display: inline-block;
+    font-size: 2em;
+    margin: auto;
+}
+
+
+
+
+.fa-html5
+{
+    margin: 0 10px;
+    color: orange;
+}
+
+.fa-css3
+{
+    margin: 0 10px;
+    color: #00A7FF;
+}
+
+.fa-js-square
+{
+    margin: 0 10px;
+    color: #ebd210;
+}
+
+.fa-java
+{
+    margin: 0 10px;
+    color: #0085CC;
+}
+
+.fa-php
+{
+    margin: 0 10px;
+    color: #5d3ec3;
+}
+
+.fa-database
+{
+    margin: 0 10px;
+    color: #525252;
+}
+/**  ----------------------   Terminan las habilidades duras   ----------------------  **/
+
+
+/**  ----------------------   Habilidades blandas   ----------------------  **/
+#list-bland
+{
+    margin: 40px 0;
+}
+
+.hblandas
+{
+    width: 49%;
+    font-size: 2em;
+    color: #d17d00;
+    display: inline-block;
+}
+/**  ----------------------   Terminan las habilidades blandas   ----------------------  **/
+/**  ----------------------   Termina la sección habilidades   ----------------------  **/
+
+
+
+/**  ----------------------   Sección portafolio   ----------------------  **/
+
+#portafolio-body
+{
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.card
+{
+    margin: 2% auto;
+
+}
+
+.carousel, .carousel-inner > .item > img {
+  width: 800px;
+}
+/**  ----------------------   Termina la sección portafolio   ----------------------  **/
+
+
+
+/**  ----------------------   Sección acerca de   ----------------------  **/
+
+#acerca-body
+{
+    margin: 0px;
+    padding: 10px 0px;
+}
+/**  ----------------------   Termina la sección acerca de   ----------------------  **/
+
+
+
+/**  ----------------------   Sección contacto   ----------------------  **/
+#contacto-body
+{
+    margin: 0px;
+    padding: 10px 0px;
+}
+/**  ----------------------   Termina la sección contacto   ----------------------  **/
