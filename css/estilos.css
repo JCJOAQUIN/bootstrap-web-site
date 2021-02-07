@@ -39,6 +39,11 @@ li
         margin-left: -300px;
         transition: all 0.5s;
     }
+
+    #lenguajes-usados
+{
+    margin: auto;
+}
 /*  ----------------------   Termina la configuración general a 900px   ----------------------  */
 
 
@@ -266,6 +271,12 @@ li
     margin: 0 10px;
     color: #525252;
 }
+
+.fa-bootstrap
+{
+    margin: 0 10px;
+    color: #563d7c;
+}
 /**  ----------------------   Terminan las habilidades duras   ----------------------  **/
 
 
@@ -287,6 +298,133 @@ li
 
 
 
+/**  ----------------------   Sección acerca de   ----------------------  **/
+
+#acerca-body
+{
+    margin: 0px;
+    padding: 10px 0px;
+    height: 100hv;
+    background-image: url(../img/andrew-neel-cckf4TsHAuw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#presentacion
+{
+    width: 95%;
+    margin-top: 3%;
+    padding: 1% 2%;
+    text-align: justify;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0,.6);
+    border-radius: 5px;
+}
+
+#titulo-pres
+{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#del-sitio
+{
+    padding-top: 4%;
+}
+
+#acerca-botones .btn
+{
+    width: 25%;
+    height: 60px;
+    font-size: 1.3em;
+    display: inline-block;
+    background-color: #005380;
+    border: 0;
+}
+
+#acerca-botones .btn:hover
+{
+    background-color: #0085CC;
+}
+
+#lenguajes-usados
+{
+    margin-top: 0px;
+}
+
+.recursos
+{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0,.6);
+}
+
+.recursos h3
+{
+    font-size: 1.5em;
+}
+
+#tecnologias-usadas
+{
+    margin-top: 2%;
+    width: 49%;
+    display: inline-block;
+}
+
+#tecnologia-btn .fab
+{
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0);
+}
+
+#tecnologia-btn .fa-html5
+{
+    font-size: 3em;
+    border: 0;
+}
+
+
+#tecnologia-btn .fa-css3
+{
+    font-size: 3em;
+    border: 0;
+}
+
+#tecnologia-btn .fa-js-square
+{
+    font-size: 3em;
+    border: 0;
+}
+
+#tecnologia-btn .fa-bootstrap
+{
+    font-size: 3em;
+    border: 0;
+}
+.descripcion-tecnologia
+{
+    color: #c4c4c4;
+    background-color: rgba(0,0,0,0.0);
+    border: 0;
+}
+
+
+#caja-creditos-img
+{
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0);
+    color: #525252;
+}
+
+#boton-uns a
+{
+    width: 100%;
+    margin: 5px;
+}
+/**  ----------------------   Termina la sección acerca de   ----------------------  **/
+
+
+
 /**  ----------------------   Sección portafolio   ----------------------  **/
 
 #portafolio-body
@@ -305,18 +443,6 @@ li
   width: 800px;
 }
 /**  ----------------------   Termina la sección portafolio   ----------------------  **/
-
-
-
-/**  ----------------------   Sección acerca de   ----------------------  **/
-
-#acerca-body
-{
-    margin: 0px;
-    padding: 10px 0px;
-}
-/**  ----------------------   Termina la sección acerca de   ----------------------  **/
-
 
 
 /**  ----------------------   Sección contacto   ----------------------  **/
