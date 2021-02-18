@@ -176,6 +176,7 @@ li
     color: #ffffff;
     font-family: 'Oxygen', sans-serif;
     font-size: 2em;
+    width: 650px;
 }
 
 #inicio-tipo {
@@ -191,7 +192,11 @@ li
 {
     margin: 0;
     padding: 10px 0px;
+    background-color: #c4c4c4;
 }
+
+
+
 .jumbotron {
     margin: 10px;
     padding-top: 20px;
@@ -209,7 +214,7 @@ li
 
 
 .breadcrumb {
-    background-color: #8f8f8f;
+    background-color: #005380;
     margin: 10px;
 }
 
@@ -223,6 +228,7 @@ li
 {
     margin: 40px 0px;
 }
+
 
 .hduras
 {
@@ -290,7 +296,7 @@ li
 {
     width: 49%;
     font-size: 2em;
-    color: #d17d00;
+    color: #ffffff;
     display: inline-block;
 }
 /**  ----------------------   Terminan las habilidades blandas   ----------------------  **/
@@ -326,6 +332,11 @@ li
 {
     font-size: 2em;
     margin-bottom: 20px;
+}
+
+#presentacion-tecnologia
+{
+    font-size: 1.3em;
 }
 
 #del-sitio
@@ -421,6 +432,13 @@ li
     width: 100%;
     margin: 5px;
 }
+
+
+#boton-fawesome a
+{
+    width: 100%;
+    margin: 5px;
+}
 /**  ----------------------   Termina la sección acerca de   ----------------------  **/
 
 
@@ -450,5 +468,35 @@ li
 {
     margin: 0px;
     padding: 10px 0px;
+    height: 100hv;
+    background-image: url(../img/domenico-loia-hGV2TfOh0ns-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.formulario-email
+{
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-label
+{
+    width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #ffce87;
+
+}
+
+#message-box textarea
+{
+    height: 50px;
 }
 /**  ----------------------   Termina la sección contacto   ----------------------  **/
