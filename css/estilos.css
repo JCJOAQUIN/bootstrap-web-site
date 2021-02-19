@@ -3,6 +3,10 @@ body {
     padding-left: 300px;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
 header {
     position: fixed;
     top: 0;
@@ -99,19 +103,24 @@ li
     padding: 0;
 }
 
-.link-social {
 
+.link-social {
     margin: auto;
 }
+
 
 .link-social .fab {
     font-size: 40px;
     color: white;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+    transition: .2s;
 }
 
 .link-social .fab:hover {
     font-size: 40px;
     color: #d17d00;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
 }
 
 .my-4 {
@@ -123,16 +132,38 @@ li
 /**  ----------------------   End Profile   ----------------------  **/
 
 /**  ----------------------   Link sections   ----------------------  **/
+.menu-container
+{
+    padding: 0px;
+}
+.menu-container:hover ul li a
+{
+    color: rgba(242, 241, 241,.3);
+
+}
+
 .nav-link {
     color: #ffffff;
     padding-top: 15px;
     font-size: 1.1em;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    transition: .2s;
 }
 
-
-.nav-link:hover {
-    color: #d17d00;
+.nav-link i
+{
+    padding-left: 10px;
 }
+.menu-container ul .nav-link:hover{
+    color: #ebab4d;
+    padding-left: 20px;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.4);
+    transition: .2s;
+}
+
 
 /**  ----------------------   End link sections   ----------------------  **/
 
@@ -192,7 +223,6 @@ li
 {
     margin: 0;
     padding: 10px 0px;
-    background-color: #c4c4c4;
 }
 
 
@@ -245,7 +275,7 @@ li
 .fa-html5
 {
     margin: 0 10px;
-    color: orange;
+    color: #d17d00;
 }
 
 .fa-css3
@@ -257,7 +287,7 @@ li
 .fa-js-square
 {
     margin: 0 10px;
-    color: #ebd210;
+    color: #b9a400;
 }
 
 .fa-java
@@ -296,7 +326,7 @@ li
 {
     width: 49%;
     font-size: 2em;
-    color: #ffffff;
+    color: #d17d00;
     display: inline-block;
 }
 /**  ----------------------   Terminan las habilidades blandas   ----------------------  **/

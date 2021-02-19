@@ -42,8 +42,6 @@ function cambios()
 btn.addEventListener('click', cambios, true);
 
 
-
-
 //  *****************     Find del Colapsado de la barra de navagación     *****************
 
 
