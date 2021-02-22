@@ -54,15 +54,17 @@ li
 /*  ----------------------   Colapso de la barra de navegación lateral   ----------------------  */
     #btn-show {
         position: fixed;
-        width: 60px;
+        font-size: 1.5em;
         margin-top: 30px;
         margin-left: 85%;
         z-index: 1;
-        background-color: rgba(0, 83, 128, 0);
-        color: #ffffff;
-        font-family: fantasy;
-        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        color: #d17d00;
+        border: 0px;
+        outline: inherit;
     }
+
+
 
     .show-bar
     {

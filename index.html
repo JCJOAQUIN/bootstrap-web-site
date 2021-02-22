@@ -53,7 +53,7 @@
 
     <!--     ----------------------     Hero     ----------------------     -->
     <section class="d-flex flex-column justity-content-center aling-items-center" id="inicio">
-        <button id="btn-show">MENU</button>
+        <button id="btn-show"><i class="fas fa-bars"></i></button>
         <div class="contenedor-inicio">
             <div class="inicio">
                 <h1 id="titulo-inicio">José Carlos JV</h1>
@@ -521,28 +521,28 @@
         </div>
 
 
-        <div class="container-fluid" id="send-mail">
+        <div class="container-fluid" id="enviar.php">
 
-            <form class="needs-validation formulario-email" novalidate="true">
+            <form action="php/enviar.php" method="post" name="formcontact" class="needs-validation formulario-email" novalidate="true">
 
                 <div class="form-row container-fluid">
                     <div class="col-md-6 mb-3" id="name-box">
                         <label for="validationCustom01" class="box-label">Nombre</label>
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" required>
+                        <input type="text" name="nombre" class="form-control" id="validationCustom01" placeholder="Escribe tu nombre" required>
                         <div class="invalid-feedback">
                             Por favor ingresa tu nombre.
                         </div>
                     </div>
                     <div class="col-md-6 mb-3" id="mail-box">
                         <label for="validationCustom02" class="box-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="validationCustom02" placeholder="tu_correo@ejemplo.com" required>
+                        <input type="email" name="email" class="form-control" id="validationCustom02" placeholder="tu_correo@ejemplo.com" required>
                         <div class="invalid-feedback">
                             Porfavor ingresa un correo.
                         </div>
                     </div>
                     <div class="col-md-12 mb-3" id="subject-box">
                         <label for="validationCustom03" class="box-label">Asunto</label>
-                        <input type="text" class="form-control" id="validationCustom03" placeholder="Escribe el asunto del correo" required>
+                        <input type="text" name="asunto" class="form-control" id="validationCustom03" placeholder="Escribe el asunto del correo" required>
                         <div class="invalid-feedback">
                             Porfavor escribe un asunto.
                         </div>
@@ -550,7 +550,7 @@
 
                     <div class="col-md-12 mb-3" id="message-box">
                         <label for="validationCustom04" class="box-label">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje completo aquí"></textarea>
+                        <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje completo aquí"></textarea>
                         <div class="invalid-feedback">
                             Por favor escriba su mensaje.
                         </div>
