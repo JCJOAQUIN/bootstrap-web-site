@@ -1,4 +1,24 @@
 /*  ----------------------   Configuración general   ----------------------  */
+
+/* SCSS RGB  dark palete
+$blue-ncs: rgba(37, 137, 189, 1);
+$cg-blue: rgba(24, 119, 149, 1);
+$ming: rgba(56, 104, 106, 1);
+$laurel-green: rgba(163, 180, 162, 1);
+$bone: rgba(205, 198, 174, 1);
+*/
+
+
+/* SCSS RGB  light paletes
+$dark-pastel-green: rgba(32, 191, 85, 1);
+$blue-sapphire: rgba(11, 79, 108, 1);
+$cyan-process: rgba(1, 186, 239, 1);
+$ghost-white: rgba(251, 251, 255, 1);
+$sonic-silver: rgba(117, 117, 117, 1);
+*/
+
+
+
 body {
     padding-left: 300px;
 }
@@ -54,7 +74,7 @@ li
 /*  ----------------------   Colapso de la barra de navegación lateral   ----------------------  */
     #btn-show {
         position: fixed;
-        font-size: 1.5em;
+        font-size: 2.5em;
         margin-top: 30px;
         margin-left: 85%;
         z-index: 1;
@@ -225,6 +245,7 @@ li
 {
     margin: 0;
     padding: 10px 0px;
+    background-color: rgba(240, 240, 255, 1);
 }
 
 
@@ -267,7 +288,7 @@ li
     width: 49%;
     padding: 2%;
     display: inline-block;
-    font-size: 2em;
+    font-size: 3em;
     margin: auto;
 }
 
@@ -310,10 +331,54 @@ li
     color: #525252;
 }
 
+.line-sqlite
+{
+    display: inline-flex;
+}
+.sqlite
+{
+    margin: 0 10px;
+    color: #1887e2;
+}
+.sqliteicon
+{
+    background-image: url(../img/Sqlite-square.icon);
+    background-position: center;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    border: 0px solid white;
+}
+
 .fa-bootstrap
 {
     margin: 0 10px;
     color: #563d7c;
+}
+
+.line-git
+{
+    display: inline-flex;
+}
+.git
+{
+    margin: 0 10px;
+    color: #f1502f;
+}
+.giticon
+{
+    background-image: url(../img/git.ico);
+    background-position: center;
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    border: 0px solid white;
+}
+
+.fa-github-square
+{
+    margin: 0 10px;
+    color: darkslategrey;
 }
 /**  ----------------------   Terminan las habilidades duras   ----------------------  **/
 
@@ -331,6 +396,12 @@ li
     color: #d17d00;
     display: inline-block;
 }
+
+#lenguajes .card
+{
+    display: inline-block;
+}
+
 /**  ----------------------   Terminan las habilidades blandas   ----------------------  **/
 /**  ----------------------   Termina la sección habilidades   ----------------------  **/
 
@@ -378,8 +449,9 @@ li
 
 #acerca-botones .btn
 {
-    width: 25%;
+    width: 30%;
     height: 60px;
+    margin: 0 auto;
     font-size: 1.3em;
     display: inline-block;
     background-color: #005380;
@@ -481,6 +553,7 @@ li
 {
     margin: 0px;
     padding: 10px 0px;
+    background-color: rgba(240, 240, 255, 1);
 }
 
 .card
