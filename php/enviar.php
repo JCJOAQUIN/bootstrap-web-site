@@ -1,4 +1,5 @@
 <?php
+
 $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $asunto = $_POST['asunto'];
@@ -22,3 +23,9 @@ mail($para, $titulo, utf8_decode($message), $header);
 
 header("Location:index.html");
 ?>
+
+
+
+
+
+
