@@ -22,9 +22,9 @@
             <span class="img-perfil" id="perfil"></span>
             <p class="text-light">José Carlos JV</p>
             <ul class="d-flex" id="contenedor-social">
-                <li class="link-social"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li class="link-social"><a href="https://www.linkedin.com/in/iscjovc/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li class="link-social"><a href="#"><i class="fab fa-youtube-square"></i></a></li>
-                <li class="link-social"><a href="#"><i class="fab fa-github-square"></i></a></li>
+                <li class="link-social"><a href="https://github.com/JCJOAQUIN" target="_blank"><i class="fab fa-github-square"></i></a></li>
             </ul>
             <hr class="my-4">
         </div>
@@ -219,15 +219,23 @@
 
         <div class="container" id="del-sitio">
             <p class="container-fluid d-flex" id="acerca-botones">
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lenguajes-usados" aria-expanded="true" aria-controls="lenguajes-usados">
+                <a href="#del-sitio" class="btns-recursos">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#lenguajes-usados" aria-expanded="true" aria-controls="lenguajes-usados">
                     Lenguajes empleados
-                </button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#recursos-imagenes" aria-expanded="false" aria-controls="recursos-imagenes">
-                    Imagenes utilizadas
-                </button>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#recursos-iconos" aria-expanded="false" aria-controls="recursos-iconos">
-                    Iconos empleados
-                </button>
+                    </button>
+                </a>
+                <a href="#del-sitio" class="btns-recursos">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#recursos-imagenes" aria-expanded="false" aria-controls="recursos-imagenes">
+                        Imagenes utilizadas
+                    </button>
+                </a>
+                <a href="#del-sitio" class="btns-recursos">
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#recursos-iconos" aria-expanded="false" aria-controls="recursos-iconos">
+                        Iconos empleados
+                    </button>
+                </a>
+                
+                
             </p>
             <div class="collapse container-fluid" id="lenguajes-usados">
                 <div class="card card-body recursos">
@@ -260,6 +268,17 @@
                                 </div>
                             </li>
 
+                            <li id="tecnologias">
+                                <span id="tecnologia-btn">
+                                    <i class="btn btn-primary fab fa-php" type="button" data-toggle="collapse" data-target="#php-tecnologia" aria-expanded="false" aria-controls="php-tecnologia"> PHP</i>
+                                </span>
+                                <div class="collapse" id="php-tecnologia">
+                                    <div class="card card-body descripcion-tecnologia">
+                                        <h4>Para darle funcionalidad a la página.</h4>
+                                    </div>
+                                </div>
+                            </li>
+
                         </ul>
 
                         <ul class="container" id="tecnologias-usadas">
@@ -288,6 +307,7 @@
 
 
                         </ul>
+                        
 
                     </div>
 
@@ -541,15 +561,13 @@
             <h2 class="display-4">Contacto</h2>
             <hr class="my-4">
             <h3>
-                <p>¿Le ha interesado alguno de mis proyectos? o ¿requiere que realice alguno adaptado a sus necesidades?</p>
+                <p>¿Le ha interesado alguno de mis proyectos? o ¿requiere que realice alguno adaptado a sus necesidades? <br>¡Contáctame!</p>
             </h3>
-            <h3>
-                <p>¡Contácteme!</p>
-            </h3>
+            
         </div>
 
 
-        <div class="container-fluid" id="enviar.php">
+        <div class="container-fluid" id="enviarcorreo">
 
             <form action="php/enviarcorreo.php" method="post" name="formcontact" class="needs-validation formulario-email" novalidate="true">
 
