@@ -52,9 +52,9 @@ li
 
 /*  ----------------------   Configuración a 900px   ----------------------  */
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:600px) and (max-width:900px) {
 
-/*  ----------------------   Configuración general a 900px   ----------------------  */
+    /*  ----------------------   Configuración general a 900px   ----------------------  */
     body {
         padding: 0px;
     }
@@ -63,20 +63,23 @@ li
         margin-left: -300px;
         transition: all 0.5s;
     }
+  
+        #lenguajes-usados
+    {
+        margin: auto;
+    }
 
-    #lenguajes-usados
-{
-    margin: auto;
-}
-/*  ----------------------   Termina la configuración general a 900px   ----------------------  */
+    /*  ----------------------   Termina la configuración general a 900px   ----------------------  */
 
 
-/*  ----------------------   Colapso de la barra de navegación lateral   ----------------------  */
+    /*  ----------------------   Colapso de la barra de navegación lateral   ----------------------  */
     #btn-show {
         position: fixed;
         font-size: 2.5em;
         margin-top: 30px;
-        margin-left: 85%;
+        margin-left: 90%;
+        padding: 0px;
+        margin-right: 0px;
         z-index: 1;
         background-color: rgba(0, 0, 0, 0);
         color: #d17d00;
@@ -84,17 +87,100 @@ li
         outline: inherit;
     }
 
-
-
     .show-bar
     {
         margin-left: 0;
     }
-/*  ----------------------   Termina el colapso de la barra de navegación lateral   ----------------------  */
+    /*  ----------------------   Termina el colapso de la barra de navegación lateral   ----------------------  */
+
+    .inicio
+    {
+        padding: 0px;
+        margin: 0px;
+        margin-top: 19% !important;
+    }
+
+    #yo-txt {
+        color: #ffffff;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1.5em !important;
+        width: 500px !important;
+        padding: 0px;
+    }
+    /*  ----------------------   Inicia la configuracion de habilidades   ----------------------  */
+    #habilidades-body
+    {
+        margin: 0;
+        padding: 10px 0px;
+        background-color: rgba(240, 240, 255, 1);
+    }    
+
+    .hduras
+    {    
+        font-size: 1.7em !important;
+    }
+
+    #lenguajes .card
+    {
+        width: 25rem !important;
+    }
+
+    
+    /*  ----------------------   Termina la configuracion de habilidades   ----------------------  */
+/*  ----------------------   Inicia la configuracion de a cerca de   ----------------------  */
+    /*  ----------------------   Inicia la configuracion de recursos imagenes   ----------------------  */
+    #recursos-imagenes
+    {
+        margin: auto;
+        padding: 0px;
+    }
+    /*  ----------------------   Termina la configuracion de recursos imagenes   ----------------------  */
+
+    /*  ----------------------   Inicia la configuracion de recursos iconos   ----------------------  */
+    #recursos-iconos
+    {
+        margin: auto;
+        padding: 0px;
+    }
+    /*  ----------------------   termina la configuracion de recursos iconos   ----------------------  */
+    /*  ----------------------   Termina la configuracion de a cerca de   ----------------------  */
+
+    /*  ----------------------   Inicia la configuracion de Portafolio   ----------------------  */
+    /*  ----------------------   Termina la configuracion de Portafolio   ----------------------  */
+
+    /*  ----------------------   Inicia la configuracion de Contacto   ----------------------  */
+    /*  ----------------------   Termina la configuracion de Contacto   ----------------------  */
 }
-/*  ----------------------   Termina la configuración general a 900px   ----------------------  */
+/*  ----------------------   Termina la configuración a 900px   ----------------------  */
+/*  ----------------------   Inicia la configuracion de 900px a 1285px   ----------------------  */
+@media screen and (min-width:900px) and (max-width:1285px) {
 
+    .inicio
+    {        
+        margin-top: 23% !important;
+    }
 
+    #yo-txt
+    {
+        font-size: 1.7em !important;
+        width: 550px !important;
+    }
+    .hduras
+    {    
+        font-size: 1.7em !important;
+    }
+
+    .hblandas
+    {
+        font-size: 1.5em;
+    }
+
+    #lenguajes .card
+    {
+        width: 18rem !important;
+    }
+}
+/*  ----------------------   Termina la configuracion de 900px a 1285px   ----------------------  */
 
 
 /**  ----------------------   Perfil   ----------------------  **/
